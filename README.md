@@ -17,4 +17,4 @@ Hiện tại khi chúng ta muốn tạo một key để lưu redis. Chúng ta c�
 
 Nếu sử dụng annotation generate, thì Starter lúc đó cung cấp cho client 1 annotation và sẽ thực hiện gen code bên trong nội tại với một template được build sẵn sử dụng cho các trường hợp khác 
 
-
+Nếu dùng cách này chúng ta có thể mở rộng đọc database theo kiểu key-value trong ApiConfig hiện giờ, để variable nào thì sẽ đọc đúng tên đó trong db . Annotion sẽ nhận datasource để biết datasource nào load lên 

@@ -1,0 +1,29 @@
+package {{packageName}};
+
+public final class {{targetClassName}} {
+
+    public static String {{nameMethod}}(
+                                        {{#parameters}}
+                                            {{item}}
+                                        {{/parameters}}
+                                        {{^parameters}}
+                                            ,
+                                        {{/parameters}}
+                                        String ... values) {
+        StringBuilder builder = new StringBuilder("{{prefixRedis}}");
+
+        {{#mandatoryfields}}
+            builder.append("|").append({{item}});
+        {{/mandatoryfields}}
+
+        String []data = values;
+        int length = data.length;
+
+        for (int i = 0; i < length; ++i) {
+            String key = data[i];
+            builder.append("|").append(key);
+        }
+
+        return builder.toString();
+    }
+}

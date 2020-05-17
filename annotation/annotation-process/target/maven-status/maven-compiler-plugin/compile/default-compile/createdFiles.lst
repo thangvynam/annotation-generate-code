@@ -1,0 +1,7 @@
+zp/cps/annotation/template/FieldInfo.class
+zp/cps/annotation/annotation/CPSRedisKey.class
+zp/cps/annotation/template/Field.class
+META-INF/services/javax.annotation.processing.Processor
+zp/cps/annotation/annotation/Mandatory.class
+zp/cps/annotation/template/Parameter.class
+zp/cps/annotation/process/CPSRedisKeyProcess.class

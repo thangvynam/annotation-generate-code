@@ -2,7 +2,7 @@
 Xây dựng annotation phục vụ cho việc generate code 
 
 # Hiện tại 
-Hiện tại team CPS đang có một thư viện Starter hỗ trợ cho các member trong team code nhanh hơn không lo đến các vấn đề như load config.
+Hiện tại team **CPS đang có một thư viện Starter hỗ trợ cho các member trong team code nhanh hơn không lo đến các vấn đề như load config.
 
 # Vấn đề 
 Khi sử dụng thư viện chúng ta bị lệ thuộc vào những nguyên tắc 

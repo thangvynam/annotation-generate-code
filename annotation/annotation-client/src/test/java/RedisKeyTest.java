@@ -7,8 +7,11 @@ import zp.cps.annotation.entity.RedisKey;
  */
 public class RedisKeyTest {
 
-    @Test
     public void test_FeatureA() {
+
+    }
+
+    public void featureC() {
 
     }
 
